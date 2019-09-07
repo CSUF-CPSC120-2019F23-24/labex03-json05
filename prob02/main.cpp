@@ -11,8 +11,8 @@ int main()
 
   // calculate how many gallons of paint it will take to cover
   // the area with 2 coats of paint
-  int area = height * length * 2;
-  int gallons = area / coverage;
+  double area = height * length * 2;
+  double gallons = area / coverage;
 
   std::cout << "It will take " << gallons << " gallons of paint.\n";
 
